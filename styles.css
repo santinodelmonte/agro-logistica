@@ -1,0 +1,39 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: system-ui, sans-serif;
+}
+
+#map {
+  width: 100%;
+  height: calc(100vh - 110px);
+  border-radius: 8px;
+}
+
+.clients-panel{
+  height: calc(100vh - 110px);
+  overflow-y: auto;
+  padding-right: 4px;
+}
+
+.client-card {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.client-card h6 {
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+.client-card p {
+  font-size: 0.8rem;
+  margin: 4px 0;
+}
+
+.client-card button {
+  width: 100%;
+}
